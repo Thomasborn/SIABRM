@@ -1,0 +1,25 @@
+{
+  "name": "siabrm-argon-ci4",
+  "version": "1.0.0",
+  "description": "## What is CodeIgniter?",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "tailwindcss build -i ./public/src/styles.css -o ./public/assets/css/argon-dashboard-tailwind.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^3.2.1"
+  },
+  "dependencies": {
+    "cli": "^1.0.1",
+    "highlight.js": "^11.4.0",
+    "tailwindcss-transforms": "^2.2.0"
+  }
+}

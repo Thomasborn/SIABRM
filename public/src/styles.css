@@ -1,0 +1,132 @@
+/*!
+
+=========================================================
+* Argon Dashboard 2 Tailwind - v1.0.0
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/argon-dashboard-tailwind
+* Copyright 2022 Creative Tim (https://www.creative-tim.com)
+
+* Coded by www.creative-tim.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+ .invalid-feedback {
+ @apply text-3;
+ @apply text-red-500;
+ @apply mt-1;
+ }
+
+ .aktif-sidebar{
+    @apply rounded-lg;
+    @apply font-semibold;
+    @apply bg-blue-500/13;
+    @apply text-slate-700;
+ }
+
+ .ps {
+   overflow: hidden !important;
+   overflow-anchor: none;
+   -ms-overflow-style: none;
+   touch-action: auto;
+   -ms-touch-action: auto;
+ }
+
+ .grid-input {
+  display: grid;
+  grid-template-columns: auto 90px;
+ }
+
+ .pagination{
+  text-align: center;
+  margin: 15px;
+  user-select: none;
+ }
+ .pagination2{
+  text-align: center;
+  margin: 15px;
+  user-select: none;
+ }
+
+ .page-item {
+ display: inline-block;
+ margin: 5px;
+ box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
+ }
+ .page-item2 {
+ display: inline-block;
+ margin: 5px;
+ box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
+ }
+
+ .dots, .current-page{
+ background: #ccc;
+ width: 35px;
+ border-radius: 50%;;
+ cursor: pointer;
+ }
+ .dots2, .current-page2{
+ background: #ccc;
+ width: 35px;
+ border-radius: 50%;;
+ cursor: pointer;
+ }
+
+ .page-link {
+ color: #fff;
+ text-decoration: none;
+ @apply text-sm;
+ line-height: 35px;
+ }
+ .page-link2 {
+ color: #fff;
+ text-decoration: none;
+ @apply text-sm;
+ line-height: 35px;
+ }
+
+ .previous-page, .next-page{
+ @apply bg-blue-500;
+ width: 80px;
+ border-radius: 45px;
+ cursor: pointer;
+ transition: 0.3s ease;
+ }
+ .previous-page2, .next-page2{
+ @apply bg-blue-500;
+ width: 80px;
+ border-radius: 45px;
+ cursor: pointer;
+ transition: 0.3s ease;
+ }
+
+ .previous-page{
+  @apply hover:translate-x-[-5px]
+ }
+ .previous-page2{
+  @apply hover:translate-x-[-5px]
+ }
+
+ .next-page{
+  @apply hover:translate-x-[5px]
+ }
+ .next-page2{
+  @apply hover:translate-x-[5px]
+ }
+
+ .active{
+ @apply bg-blue-500;
+ }
+
+ .disable{
+  background: #ccc;
+ }
+}
